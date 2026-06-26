@@ -1,17 +1,13 @@
-.hamburger_menu{display:flex}
-.hamburger{flex:1;}
-.nav_list{
-  flex:1;
-  display:none;
+.hamburger{
+  font-size:28px;
 }
 nav{
-  display:flex;
-  flex-direction:column;
-  aline-items:flex-end;
-  right:0;
+  display:none;
 }
 nav.active ul{
-  display:flex;
-  flex-direction:column;
+  display:block;
+  right:0;
+  text-align:end;
+  
 }
 
