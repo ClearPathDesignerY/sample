@@ -1,7 +1,17 @@
 .hamburger_menu{display:flex}
 .hamburger{flex:1;}
-.menu_list{
+.nav_list{
   flex:1;
   display:none;
+}
+nav{
+  display:flex;
+  flex-direction:column;
+  aline-items:flex-end;
+  right:0;
+}
+nav.active ul{
+  display:flex;
+  flex-direction:column;
 }
 
