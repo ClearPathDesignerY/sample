@@ -1,4 +1,7 @@
 .hamburger_menu{display:flex}
 .hamburger{flex:1;}
-.menu_list{flex:1:}
+.menu_list{
+  flex:1;
+  display:none;
+}
 
