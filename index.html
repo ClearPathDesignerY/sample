@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sample</title>
-  <link href="sample.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!--ハンバーガー-->
@@ -26,6 +26,13 @@
   
   <!--ハンバーガー-->
   <!--1.html★2.スクリプト★-->
-  <script src="script.js"></script>
+  <script src="script.js">
+    const hamburger = document.getElementById("hamburger");
+    const nav = document.getElementById("nav");
+
+    hamburger.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+  </script>
 </body>
 </html>
