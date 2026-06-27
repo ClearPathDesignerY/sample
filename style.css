@@ -7,7 +7,7 @@
 /* 表示するとき */
 #nav.active {
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
 }
 
 .hamburger {
