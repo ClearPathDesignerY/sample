@@ -6,9 +6,9 @@
 /* 表示するとき */
 #nav.active {
   display:  block;
-}
-.hamburger {
-  text-align:end;
+}.hamburger {
+  display: block;
+  margin-left: auto;
   font-size: 30px;
   background: none;
   border: none;
