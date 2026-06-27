@@ -6,7 +6,6 @@
 /* 表示するとき */
 #nav.active {
   display:  block;
-  list-style:none;
 }
 .hamburger {
   font-size: 30px;
@@ -17,4 +16,5 @@
 .li{
   color:red;
   font-weight:bold;
+  list-style:none;
 }
