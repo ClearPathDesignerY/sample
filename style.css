@@ -13,8 +13,11 @@
   border: none;
   cursor: pointer;
 }
-.li{
+#nav ul{
+  list-style:none;
+}
+
+#nav a{
   color:red;
   font-weight:bold;
-  list-style:none;
 }
